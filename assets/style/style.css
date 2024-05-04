@@ -76,10 +76,9 @@ header a {
 
 
 #menu a:hover{
-        color: #ffffff;
+        color: #3a3a3a;
         transform: scale(1.8);
-        border: 2px solid #6c6767;
-        background: #6c6767;
+        
 
 }
 
@@ -468,11 +467,9 @@ footer p {
     
     
     #menu a:hover{
-            color: #ffffff;
+            color: #3a3a3a;
             transform: scale(1.2);
-            border: 2px solid #6c6767;
-            background: #6c6767;
-    
+            
     }
     
     /* Nav bar styles with drop down menu */
@@ -508,7 +505,7 @@ footer p {
     
     #menu {
         display: flex;
-        font-size: 150%;
+        font-size: 120%;
     }
     
     #menu > li {
@@ -517,10 +514,10 @@ footer p {
     
     
     #menu a:hover{
-            color: #ffffff;
+            color: #3a3a3a;
             transform: scale(1.2);
-            border: 2px solid #6c6767;
-            background: #6c6767;
+           
+            
     
     }
     
@@ -547,6 +544,14 @@ footer p {
     
     .nav-toggle-label {
         display: none;
+    }
+
+    #home{
+        font-size: 130%;
+    }
+
+    #about {
+        font-size: 130%;
     }
 
 }
