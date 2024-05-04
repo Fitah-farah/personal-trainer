@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam personal trainer</title>
+
+    <!-- Style sheet-->
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <a href="index.html">
+            <h1 id="logo"> Adam </span> Personal
+                Trainer</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i> </label>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="" class="active"> Home</a></li>
+                <li><a href="index.html">Goals</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">plans</a></li>
+                <li><a href="index.html">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Main content-->
+    <main>
+      <section id="signup">
+        <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
+
+            <h1><i class="fa-solid fa-medal"></i> Sign up today!</h1>
+            <label for="lname" id="fname">First Name: </label>
+            <input type="text" class="input-text" id="fname" name = "First Name" required>
+            <br>
+            <label for="lname" id="lname">Last Name: </label>
+            <input type="text" class="input-text" id="lname" name ="Last name" required>
+            <br>
+            <label for="email" id="email" >Email: </label>
+            <input type="email" class="input-text" name="Email" required>
+            <br>
+       <div class="signup-plans">
+            <div>
+           
+            <input type="radio" name="plan_preference" id="road"  value="basic" required>
+            <label for="road">Basic </label>
+            <br>
+            </div>
+            
+            <div>
+            
+            <input type="radio" name="plan_preference" id="trial"  value="profesional" required>
+            <label for="profesional"> Profesional</label>
+            <br>
+            </div>
+            
+            <div>
+
+            <input type="radio" name="plan_preference" id="advanced"  value="Advanced" required>
+            <label for="both">advanced </label>
+        </div>
+        </div>
+        
+        <br>
+           <button type="submit" class="btn">sign up </button>
+        </form>
+      </section>
+    </main>
+
+    <!---footer-->
+    <footer>
+        <hr>
+        <div id="social-media">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!-- Font awesome kit -->
+    <script src="https://kit.fontawesome.com/68b5431435.js" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>

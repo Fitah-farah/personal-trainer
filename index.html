@@ -1,34 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James personal trainer</title>
+    <title>Adam personal trainer</title>
+
+    <!-- Style sheet-->
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
+
 <body>
     <!--Header-->
     <header>
+        <a href="index.html">
+            <h1 id="logo"> Adam </span> Personal
+                Trainer</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i> </label>
+
         <nav>
-           <ul>
-            <li><a href="index.html"> Home</a></li>
-            <li><a href="">Goals</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">membership</a></li>
-            <li><a href="">Signup</a></li>
-           </ul>
+            <ul id="menu">
+                <li><a href="index.html" class="active"> Home </a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#plans">plans</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
         </nav>
     </header>
 
     <!--Main content-->
     <main>
+        <!---Main page photo and sefl description-->
+        <section id="home">
+            <div id="cover-text">
+                <h4>Breaking Barriers, Building Bodies</h4>
+                <h1>I am Adam </h1>
+                <h5>Certified Personal Trainer </h5>
+                    
+                <h3>HIIT & Strength Training | Transforming Lives Through Fitness. </h3>
+                   
+                  <a href="#" class="btn">See my plans</a> 
+            </div>
+        </section>
 
+        <!---About section -->
+        <section id="about">
+            <div id="about-img">
+                <img src="/assets/images/about1.jpg" alt="About img">
+            </div>
+
+            <div id="about-text">
+                <h2>About me</h2>
+                <h5>Hi there, I'm Adam, a certified personal trainer </h5>
+                <p>
+                    over 5 years of experience in helping people achieve their fitness goals. 
+                    My approach focuses on personalized workouts and nutrition plans tailored to 
+                    each client's needs and lifestyle. Whether you're looking to lose weight, 
+                    build muscle, or improve your overall health.
+                </p>
+                <a href="#" class="btn">See my plans</a> 
+            </div>
+
+        </section>
+
+        <!---Plans section -->
+        <section id="goals">
+            <div id="slim">
+                <h5> be slim </h5>
+                <h2>WEIGHT LOSS </h2>
+                <a href="#" class="btn">See my plans</a> 
+            </div>
+
+            <div id="sturdy">
+                <h5>be sturdy</h5>
+                <h2> Health status </h2>
+                <a href="#" class="btn">See my plans</a> 
+            </div>
+
+            <div id="huge">
+                <h5> <span> be </span> huge</h5>
+                <h2>body Building </h2>
+                <a href="#" class="btn">See my plans</a> 
+            </div>
+
+        </section>
+
+        <!-- Plans section-->
+        <section id="plans">
+            <h1>CHOOSE A PACKAGE <br>FOR YOURSELF </h1>
+            <div id="plans-text">
+   
+            <div id="basic">
+                <h2> BASIC </h2>
+                    <h3> €59 </h3>
+                    <p> Includes: Personalized workout plan with certified trainer, 
+                        progress tracking, and accountability for one-on-one training
+                     </p>
+
+                    <ul>
+                     <li> 10 Sections </li>
+                     <li> Customized Plan </li>
+                     <li> Progress Tracking </li>
+                    </ul>
+                    <a href="#" class="btn">See my plans</a> 
+
+            </div>
+
+            <div id="profesional">
+                <h2> profesional </h2>
+                <h3> €89 </h3>
+                <p> Includes: Get a custom workout plan with one-on-one training, 
+                    progress tracking, and accountability from a certified traine
+                 </p>
+
+                <ul>
+                 <li> 19 Sections </li>
+                 <li> Customized Plan </li>
+                 <li> Progress Tracking </li>
+                </ul>
+                <a href="#" class="btn">See my plans</a> 
+            </div>
+
+            <div id="advanced">
+                <h2> ADVANCED</h2>
+                <h3> €149 </h3>
+                <p> Includes: Get 25 sessions with a trainer, customized plan, 
+                    nutrition coaching, gym access, and progress tracking 
+                    for accountability.
+                     </p>
+
+                <ul>
+                 <li> 25 Sections </li>
+                 <li> Customized Plan </li>
+                 <li> Progress Tracking </li>
+                </ul>
+                <a href="#" class="btn">See my plans</a> 
+
+            </div>
+            </div>
+        </section>
     </main>
 
     <!---footer-->
     <footer>
-
+        <hr>
+        <p> Adam personal trainer | Allrights reserved | 2024</p>
+        <div id="social-media">
+            
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
     </footer>
 
+    <!-- Font awesome kit -->
+    <script src="https://kit.fontawesome.com/68b5431435.js" crossorigin="anonymous"></script>
 </body>
+</body>
+
 </html>
