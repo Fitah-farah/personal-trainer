@@ -10,5 +10,7 @@ The purpose of this project is to create a responsive and visually appealing web
 
 Responsive Design: Ensure the website is accessible and looks great on devices of all sizes, including desktops, tablets, and smartphones.
 
+<img src="./assets/readme-screenshots/dosignmockup.png" alt="design mockup image"/>
 
-
+The Footer Element contains Social Media Links to Facebook, Twitter and Instagram.
+The Icons contain the Link and will redirect the user to the desired Social Media Platform in a new tab.
