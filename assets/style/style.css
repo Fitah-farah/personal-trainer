@@ -125,7 +125,7 @@ main {
 }
 
 section {
-    padding: 160px 16% 90px;
+   padding: 160px 16% 90px;
 }
 
 #home {
@@ -207,7 +207,7 @@ section {
     height: auto;
     border: 2px solid #3a3a3a;
     border-radius: 50%;
-    b
+    
 }
 
 #about-text h2 {
@@ -562,6 +562,7 @@ footer p {
 
     #home{
         font-size: 130%;
+        min-height: 125vh;
     }
 
     #about {
