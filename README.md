@@ -7,22 +7,17 @@ Portfolio 1 project as part of the Diploma in Full Stack Software Development by
 Deployed site can be found <a href="https://fitah-farah.github.io/personal-trainer/">HERE </a>
 
 # Contents.
-  - [Features] (#Features) 
-  - [User Experience/UX] (#userexperience)
-       - [Target Audiences] (#Target-audiences)
-       - [User stories] (#User-stories) 
-           - [New vistor Goals] (#New-vistor) 
-           - [Existing Vistor Goals] (#Existing-Vistor] 
-  - [Design choises] (#Design-choices)
-        - [color-scheme] (#color-scheme)
-        - [Typography] (#Typography)
-        - [fav icon] (#Favicon) 
-  - [Technology] (#Technology)
-  - [Testing] (#Testing)
-       - W3C for validating HTML <a href="https://validator.w3.org/"> Here </a> is the link
-       - jigsaw for validating CSS <a href="https://jigsaw.w3.org/css-validator/"> Here </a> is the link
-  - <a href="##color-scheme"> color scheme </a>
-  - <a href="##Deployment"> Deployment </a>
+  - [Features](#features) 
+  - [User Experience/UX](#user-experienceux)
+       - [Target Audiences](#target-audiences)
+       - [User Stories](#user-stories) 
+  - [Design Choises](#design-choises)
+    - [color-scheme](#color-scheme)
+    - [Typography](#typography)
+       
+  - [Technology](#technology)
+  - [Testing](#testing)
+      
     
 ## Features
 - Home Page: Introduce the personal trainer and provide an overview of the services offered.
@@ -36,28 +31,26 @@ Responsive Design: Ensure the website is accessible and looks great on devices o
 <img style="max-width: 100%;" alt="design mockup image" src="https://github.com/Fitah-farah/personal-trainer/blob/main/assets/readme-screenshots/Designmockup.png?raw=true">
 
  ## User Experience/UX
-       - Target Audiences)
-           users that are interested in the health and fitness industry.
-       - User stories
-           - New vistor Goals
-               - How to easly navigate the site
-               - To understand the content what site is all about.           
+  - ### Target Audiences
+    users that are interested in the health and fitness industry.
+- ### User stories
+    - New vistor Goals
+      - How to easly navigate the site
+      - To understand the content what site is all about.           
   ## Design choises
-        - Color Scheme
-            - light blue   #6887f5;
-            - Grey background  #3a3a3a
-            - light grey        #6c6767
-        - Typography
-            Ubuntu Sans Mono Fonts from google fonts
-        - fav icon
+  - ### Color Scheme
+    - light blue   #6887f5;
+    - Grey background  #3a3a3a
+    - light grey        #6c6767
+  - ### Typography
+    Ubuntu Sans Mono Fonts from google fonts
+      
   ## Technology
-      HTML and CSS
+  HTML and CSS
   ## Testing
-       - W3C for validating HTML <a href="https://validator.w3.org/"> Here </a> is the link
-       - jigsaw for validating CSS <a href="https://jigsaw.w3.org/css-validator/"> Here </a> is the link
   ## Deployment
-     I deployed this site on github page using the fallowing steps.
-        - in your repository select setting
-        - select pages
-        - in the branch select main branch and folder option select root
+  I deployed this site on github page using the fallowing steps.
+  - in your repository select setting
+  - select pages
+  - in the branch select main branch and folder option select root
 
