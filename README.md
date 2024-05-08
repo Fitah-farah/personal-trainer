@@ -4,7 +4,7 @@ This a portfolio 1 project as part of the Diploma in Full Stack Software Develop
 
 The purpose of this project is to create a responsive and visually appealing website for a fictional personal trainer. The website aims to attract potential clients by providing information about the trainer's background, services offered, and ways to get in touch. this design is implemented with pure HTML AND CSS only.
 
-Deployed site can be found <a href="https://fitah-farah.github.io/personal-trainer/" target="_blank">HERE </a>
+Deployed site can be found <a href="https://fitah-farah.github.io/personal-trainer/" target="_blank" rel="noopener">HERE </a>
 
 # Contents.
   - [Features](#features) 
@@ -45,7 +45,7 @@ Responsive Design: Ensure the website is accessible and looks great on devices o
   - ### Typography
     Ubuntu Sans Mono Fonts from google fonts
   - ### Favicon
-    The favicon from <a src="https://icons8.com" target="_blank" >icons8</a>
+    The favicon from <a href="https://icons8.com" target="_blank" rel="noopener"> icons8 </a>
   ## Technology
   HTML and CSS
   ## Testing
